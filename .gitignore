@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model and experiment outputs
+*.pt
+*.pth
+*.bin
+checkpoints/
+outputs/
+
+# Credentials
+.env
+*.key
