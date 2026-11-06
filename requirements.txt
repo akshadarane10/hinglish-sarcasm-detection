@@ -1,8 +1,9 @@
-torch
-transformers
 pandas
 numpy
+datasets
+transformers
+accelerate
+torch
 scikit-learn
-matplotlib
-seaborn
 jupyter
+ipykernel
