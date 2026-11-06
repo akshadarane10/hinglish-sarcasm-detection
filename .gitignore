@@ -1,23 +1,19 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Environments
 .venv/
 venv/
-env/
+.env
 
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Model and experiment outputs
-*.pt
-*.pth
-*.bin
-checkpoints/
-outputs/
+# Model outputs and checkpoints
+results/
+checkpoint-*/
+*.safetensors
+pytorch_model.bin
 
-# Credentials
-.env
-*.key
+# Local dataset files (not redistributed in this repository)
+Sarcasm_tweets.txt
+Sarcasm_tweet_truth.txt
